@@ -12,7 +12,7 @@ const add = mine.reduce(function (acc, cur, i, arr) {
 }, 0);
 console.log(add)
 
-//=================================================================
+//============================================
 
 //Using For loop
 let acc = 0;
@@ -21,7 +21,7 @@ for (const iterator of mine) {
 }
 console.log(` Using For loop  : ${acc}`)
 
-//=================================================================
+//===========================================
 // max
 
 const max = mine.reduce((acc, mov) => {
